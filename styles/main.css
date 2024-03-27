@@ -4,13 +4,33 @@ body {
 }
 
 #valknut {
+  position: relative;
   border-radius: 66%;
-  width: 333px;
+  width: 188px;
   max-width: 100%;
   height: auto;
   display: block;
   margin: 50px auto;
-  border: 12px solid black;
+  border: 8px solid black;
+}
+
+h2 {
+  font-size: 33px;
+}
+
+h1,
+h2,
+p {
+  text-align: center;
+}
+
+.title-banner {
+  width: 96%;
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  padding: 20px;
 }
 
 .staatliches-regular {
@@ -20,10 +40,42 @@ body {
 }
 
 #portrait {
+  position: relative;
   border-radius: 66%;
-  width: 333px;
+  width: 188px;
   max-width: 100%;
   height: auto;
   display: block;
   margin: 50px auto;
-  border: 12px solid black;
+  border: 8px solid black;
+}
+
+.overlay {
+  position: relative;
+  border-radius: 66%;
+}
+
+.image__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: 0.25s;
+}
+
+.image__overlay:hover {
+  opacity: 1;
+}
+
+.image__title {
+  font-size: 1.5em;
+  font-weight: bold;
+}
