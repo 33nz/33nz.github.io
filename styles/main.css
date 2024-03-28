@@ -6,12 +6,12 @@ body {
 #valknut {
   position: relative;
   border-radius: 66%;
-  width: 133px;
+  width: 266px;
   max-width: 100%;
   height: auto;
   display: block;
   margin: 50px auto;
-  border: 6px solid black;
+  border: 8px solid black;
 }
 
 h2 {
@@ -31,7 +31,7 @@ p {
 }
 
 .title-banner {
-  width: 99%;
+  max-width: 100%;
   background-color: black;
   margin-left: auto;
   margin-right: auto;
@@ -90,6 +90,7 @@ p {
 
 /* Navbar container */
 .navbar {
+  max-width: 100%;
   overflow: hidden;
   background-color: black;
   font-family: 'Roboto Mono';
@@ -104,7 +105,7 @@ p {
   font-size: 16px;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 16px 16px;
   text-decoration: none;
 }
 
@@ -120,7 +121,7 @@ p {
   border: none;
   outline: none;
   color: white;
-  padding: 14px 16px;
+  padding: 16px 16px;
   background-color: inherit;
   font-family: inherit; /* Important for vertical align on mobile phones */
   margin: 0; /* Important for vertical align on mobile phones */
@@ -140,6 +141,7 @@ p {
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
+  max-width: 50%;
 }
 
 /* Links inside the dropdown */
@@ -160,6 +162,7 @@ p {
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
+  max-width: 50%;
 }
 
 #runner {
@@ -172,10 +175,19 @@ p {
   margin: 50px auto;
   border: 6px solid black;
 }
-
+#family {
+  position: relative;
+  border-radius: 90%;
+  width: 290px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 100px auto auto auto;
+  border: 3px solid silver;
+}
 .slim-anchor,
 a:link {
-  color: purple;
+  color: white;
   background-color: transparent;
   text-decoration: none;
 }
@@ -200,4 +212,32 @@ a:hover {
 
 div {
   margin-bottom: 2em;
+}
+
+article {
+  display: block;
+  max-width: 800px;
+  justify-content: center;
+  position: relative;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blog-p {
+  font-size: 17px;
+}
+
+.container {
+  height: 70px;
+  position: relative;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
