@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/styles/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="favicon image"
+      type="image/png"
+      href="/images/Vaulknut PNG.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/images/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/images/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/images/favicon/favicon-16x16.png"
+    />
+
+    <title>Cool Discoveries</title>
+  </head>
+  <body>
+    <main>
+      <section>
+        <div class="title-banner">
+          <h1 style="color: white; font-size: 37px">
+            Sweet things I have learnt
+          </h1>
+        </div>
+     <article>
+      <h2>Relative, absolute, and fixed postioning</h2>
+      <p style="font-size: 20px;">Ever wondered how websites create those fancy elements that stick to the side as you scroll, or pop-up boxes that stay put? That's the magic of CSS positioning! In this post, we'll explore three powerful tools: relative, absolute, and fixed positioning, and shed light on when to use each one.<br><br>
+
+        Imagine your webpage as a blank canvas. By default, elements like text and images flow from top to bottom, one after another. Positioning allows us to break free from this flow and arrange things exactly how we want.</p>
+        <br>
+        <br>
+        <h3>1. Relative Positioning: Shifting Elements around</h3>
+        <p style="font-size: 20px;">Think of relative positioning as gently nudging an element a bit. It stays in its original spot in the document flow, but we can move it up, down, left, or right using the top, right, bottom, and left properties.  Relative allows you to actually change the postion of the element <em>relative</em> to where it normally would be in the document flow if it was statically positioned (fyi - static position is the default). </p>
+        <p style="font-size: 20px;">Here's an example:</p>
+        <img class="positioning" src="/images/positioning/relative-html.PNG"><br>
+        <p style="font-size: 20px;">This code creates a box with an image and a caption. Now let's add some CSS:</p><br>
+        <img class="positioning" src="/images/positioning/relative-css.PNG">
+        <p style="font-size: 20px;">With the CSS above, the caption will move 10 pixels down from its original place, but the box itself will stay put in the document flow. This is useful for minor adjustments like placing text beside an image.</p><br>
+        <hr>
+        <h3>2. Absolute Positioning: Taking Elements Out of Flow</h3>
+        <p style="font-size: 20px;">Absolute positioning is more drastic. It completely removes the element from the normal document flow, like taking it out of the puzzle entirely. We then use top, right, bottom, and left properties to position it anywhere on the page relative to its closest positioned parent container, usually another element with positioning applied (often relative positioning is only applied to create this parent containter), or the entire webpage if there's noneWith this CSS, the navigation bar will stick to the top of the screen as you scroll through the webpage (see screenshot).  Be aware that fixed elements can cover.
+
+          <br><br>Here's an example of a popup box:</p>
+          <img class="positioning" src="/images/positioning/absolute-html.PNG">
+          <br>
+          <img class="positioning" src="/images/positioning/absolute-css.PNG">
+          <p style="font-size: 20px;">With this CSS, the popup box is removed from the flow and centered on the screen. Since absolute positioning relies on a reference point, it can create challenges if the surrounding layout changes.</p>
+          <hr>
+        <h3>3. Fixed Positioning: Elements That Stick Around</h3>
+        <p style="font-size: 20px;">Fixed positioning is like using super glue for elements. They stay in a fixed spot in the viewport (the area you see in your browser window) regardless of scrolling. This is perfect for navigation bars or "back to top" buttons that you want to be visible at all times.
+        
+          <br><br>Here's an example of a fixed navigation bar:</p>
+          <img class="positioning" src="/images/positioning/fixed-html.PNG">
+          <br>
+          <img class="positioning" src="/images/positioning/fixed-css.PNG">
+          <p style="font-size: 20px;">With this CSS, the navigation bar will stick to the top of the screen as you scroll through the webpage.</p>
+      </article>
+    <div class="container">
+      <div class="center">
+        <a href="/index.html"
+          ><button style="background-color: black; color: white">
+            Home
+          </button></a
+        >
+      </div>
+    </div>
+  </main>  
+  </body>
+  <footer>
+    <p style="font-size: 15px; text-align: right">
+      Jacob Adam Wingate (<em>c.</em> 2024)
+    </p>
+  </footer>
+</html>
