@@ -95,7 +95,6 @@ p {
   font-family: 'Roboto Mono';
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
   margin-top: 50px;
 }
 
@@ -189,7 +188,6 @@ p {
 }
 .slim-anchor,
 a:link {
-  color: white;
   background-color: transparent;
   text-decoration: none;
 }
