@@ -186,6 +186,26 @@ p {
   margin: 100px auto auto auto;
   border: 3px solid silver;
 }
+
+#lion-img {
+  position: relative;
+  width: 540px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 100px auto 60px auto;
+  border: 3px solid silver;
+}
+
+#learning-img {
+  position: relative;
+  width: 540px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 100px auto 60px auto;
+  border: 3px solid silver;
+}
 .slim-anchor,
 a:link {
   background-color: transparent;
