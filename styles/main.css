@@ -19,7 +19,8 @@ h2 {
 }
 
 p,
-h3 {
+h3,
+li {
   font-size: 22px;
 }
 
@@ -195,6 +196,16 @@ p {
   display: block;
   margin: 100px auto 60px auto;
   border: 3px solid silver;
+}
+
+#eq-img {
+  position: relative;
+  width: 540px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 100px auto 60px auto;
+  border: 3px solid black;
 }
 
 #learning-img {
