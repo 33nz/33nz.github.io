@@ -246,7 +246,7 @@ p {
   height: auto;
   display: block;
   margin: auto;
-  border: 3px solid silver;
+  border: 3px solid rgb(93, 33, 172);
 }
 
 .slim-anchor,
