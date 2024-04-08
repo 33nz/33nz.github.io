@@ -81,6 +81,15 @@ p {
   display: block;
   margin: 30px auto;
 }
+#zenBrain {
+  position: relative;
+  border-radius: 66%;
+  width: 300px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 30px auto;
+}
 
 .overlay {
   position: relative;
