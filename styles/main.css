@@ -72,6 +72,16 @@ p {
   margin: 30px auto;
 }
 
+#fanTail {
+  position: relative;
+  border-radius: 66%;
+  width: 400px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 30px auto;
+}
+
 .overlay {
   position: relative;
   border-radius: 66%;
@@ -223,6 +233,16 @@ p {
 #wizard-img {
   position: relative;
   width: 300px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 100px auto 60px auto;
+  border: 3px solid black;
+}
+
+#te-whare {
+  position: relative;
+  width: 500px;
   max-width: 100%;
   height: auto;
   display: block;
