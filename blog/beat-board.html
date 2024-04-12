@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/styles/main.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="favicon image" type="image/png" href="images/Vaulknut PNG.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/images/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/images/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/images/favicon/favicon-16x16.png"
+    />
+    <title>Beat Machine</title>
+
+    <script src="http://unpkg.com/tone"></script>
+    <script>
+      function playNote() {
+        // create a synth
+        const synth = new Tone.Synth().toDestination()
+        // play a note from that synth
+        synth.triggerAttackRelease('A3', '3n')
+      }
+      function playNote1() {
+        // create a synth
+        const synth = new Tone.Synth().toDestination()
+        // play a note from that synth
+        synth.triggerAttackRelease('B3', '3n')
+      }
+      function playNote2() {
+        // create a synth
+        const synth = new Tone.Synth().toDestination()
+        // play a note from that synth
+        synth.triggerAttackRelease('C3', '3n')
+      }
+      function playNote3() {
+        // create a synth
+        const synth = new Tone.Synth().toDestination()
+        // play a note from that synth
+        synth.triggerAttackRelease('D3', '3n')
+      }
+      function playNote4() {
+        // create a synth
+        const synth = new Tone.Synth().toDestination()
+        // play a note from that synth
+        synth.triggerAttackRelease('E3', '3n')
+      }
+      function playNote5() {
+        // create a synth
+        const synth = new Tone.Synth().toDestination()
+        // play a note from that synth
+        synth.triggerAttackRelease('F3', '3n')
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Beat board</h1>
+    <div id="beat-board">
+      <button onclick="playNote()">A chord</button>
+      <button onclick="playNote1()">B chord</button>
+      <button onclick="playNote2()">C chord</button>
+      <button onclick="playNote3()">D chord</button>
+      <button onclick="playNote4()">E chord</button>
+      <button onclick="playNote5()">F chord</button>
+    </div>
+    <br />
+    <br />
+    <img id="speakers" src="/images/beats.png" />
+  </body>
+</html>

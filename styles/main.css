@@ -51,6 +51,13 @@ p {
   font-style: normal;
 }
 
+#beat-board {
+  margin: auto;
+  max-width: auto;
+  display: flex;
+  justify-content: center;
+}
+
 #portrait {
   position: relative;
   border-radius: 66%;
@@ -66,6 +73,16 @@ p {
   position: relative;
   border-radius: 66%;
   width: 200px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 30px auto;
+}
+
+#speakers {
+  position: relative;
+  border-radius: 66%;
+  width: 500px;
   max-width: 100%;
   height: auto;
   display: block;
